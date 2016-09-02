@@ -35,6 +35,14 @@ append(1); //[1]
 append(2); //[2], not [1, 2]
 ```
 
+#### Using default params: 
+Pros:
+- Don't have to define params every time you use the same functions
+
+Cons:
+- Risk forgetting that you defined default params.
+
+
 ##Arrow functions
 An arrow function is an anonymous function expression that doesn't change the value of `this`.
 
